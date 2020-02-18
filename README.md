@@ -8,7 +8,7 @@ HeteroRefactor has been tested on Ubuntu 16.04.5 LTS. The following packages are
 ```bash
 sudo apt-get install gawk git wget tar bzip2 gcc automake autoconf \
     libhpdf-dev libc6-dev autotools-dev bison flex libtool libbz2-dev \
-    libpython2.7-dev ghostscript libhpdf-dev libmpfrc++-dev
+    libpython2.7-dev ghostscript libhpdf-dev libmpfrc++-dev libltdl-dev
 ```
 
 To get the resource utilization results for the original and refactored kernels, a valid Xilinx Vivado license is required to do the FPGA synthesis and implementation. Please make sure they are in your `PATH` environment variable, and you can run `vivado` and `vivado_hls` in your terminal.
